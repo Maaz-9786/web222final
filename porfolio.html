@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    </head>
+    <body>
+        <script src="js/form.js">
+        </script>
+        <div class="header">
+                <div class="image">
+                      <img src="img/pfp.jpg">
+                 </div>
+                <div class="text"> 
+                       <h1> Maaz Abbasi </h1>
+                       <a href="C:\Users\maaza\OneDrive\Desktop\web final\pdf\RESUME.pdf" class="button1" download="resume">Resume</a>
+                       <a href="something" class="button1">Contact Me</a>
+                </div>
+                <div class="about">
+                    <h2>About me</h2>
+                    Hello, this is my personal website or portfolio; in any case, WELCOME TO MY WEBSITE; the photo you see above this paragraph is of me. Handsome? Oh, thanks. Anyway, if you scroll down a little farther, you should be able to read more about me, and if you scroll down even further, you should be able to see about my schooling, which I don't have much of, as well as a contact me form, which you can use to, well, contact me. No guarantees on a response in less than three days, though; that would be too much work, just joking. I'll respond as soon as I can.
+                </div>
+                <br><br>
+                <div class="basic">
+                    <h3>Basic Info</h3>
+                    <ul>
+                        <li> Age        : 20 </li>
+                        <li> Email      : mmmzabbasi@myseneca.ca</li>
+                        <li> Language   : English,Hindi,Urdu and Gujrati</li>
+                        <li> Section    : ZCC </li>
+                        <li> Student ID : 138923206 </li>
+                        <li> Instructor : Muath Alzghool</li>
+                    </ul>
+                </div>
+                <br><br><br><br>
+                <div class="honesty">
+                    <h3>Academic Honesty</h3>
+                    <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic
+                        Policy. No part of this assessment has been copied manually or electronically from any other
+                        source (including web sites) except for the information supplied by the WEB222 instructors and /
+                        or made available in this assessment for my use. I also declare that no part of this assignment
+                        has been distributed to other students.</p><br></div>
+        </div>
+      
+        <div class="card">
+            <div class="container">
+              <h4><b></b></h4> 
+              <p><h3>My Interests</h3>
+                <ul>
+                    <li> I love videogames, mostly first person gamer ones though, such as the call of duty series, pubg, fortnite and one of my favourites, Counter srike; Global Offensive. As of these days, I have really been into Valorant, my main character to play in that right now would be "Yoru" due to her extreme offensive abilities.</li></p>
+                    
+            </div>
+          </div>
+          <div class="card">
+              <div class="container">
+                <p><h3>Eductaion</h3></p>
+                <ul>
+                    <li>Currently pursuing the computer programing and analysis(CPA) course in Seneca College</li>
+                </ul>
+              </div>
+          </div>
+          <div class="form">
+              <h1>Contact me</h1>
+            <form action="https://httpbin.org/post" method="POST" id="frm">
+                <div>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                <div>
+                  <label for="lname">Last Name</label>
+                  <input type="email" id="email" name="email" placeholder="Your email here..">
+                </div><div>
+                  <label for="country">city</label>
+                  <select id="country" name="country">
+                    <option value="australia">Toronto</option>
+                    <option value="canada">Ottawa</option>
+                    <option value="usa">Brampton</option>
+                    <option value="hamilton">Hamilton</option>
+                  </select>
+                  <label for="postal">Postal code</label>
+                  <input type="text" id="areacode" name="areacode" placeholder="postal code">
+                </div><div>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                <div>
+                    <input type="radio" id="que" name="question" value="que">
+                <label>question</label><br>
+                    <input type="radio" id="comm" name="comment" value="comment">
+                <label>comment</label><br>
+                    <input type="radio" id="hir" name="hiring" value="hiring" onclick="ShowHideDiv()">
+                <label>hiring</label>
+                </div>
+                <div id="rate"  style="display: none">
+                    <input type="rate" id="rt" name="rate" value="rate">
+                <label>hourlyrate</label>
+                </div>
+                <input type="submit" value="Submit" id="btn">
+              </form>
+          </div>
+    </body>
+</html>
